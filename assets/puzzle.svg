@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="puzzleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#A18CD1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FBC2EB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Puzzle Piece -->
+  <path d="M30 30 H 45 A 10 10 0 0 1 65 30 H 80 V 45 A 10 10 0 0 0 80 65 V 80 H 65 A 10 10 0 0 0 45 80 H 30 V 65 A 10 10 0 0 1 30 45 V 30 Z" fill="url(#puzzleGrad)" stroke="#2D3436" stroke-width="3"/>
+  <circle cx="55" cy="55" r="5" fill="#fff" opacity="0.5"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="shipGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE66D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD54F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Ship Body -->
+  <path d="M50 10 L 30 60 L 30 80 L 50 70 L 70 80 L 70 60 Z" fill="url(#shipGrad)" stroke="#2D3436" stroke-width="3"/>
+  <!-- Cockpit -->
+  <circle cx="50" cy="45" r="8" fill="#4ECDC4" stroke="#2D3436" stroke-width="2"/>
+  <!-- Wings -->
+  <path d="M30 60 L 10 80 L 30 80 Z" fill="#FF6B6B" stroke="#2D3436" stroke-width="2"/>
+  <path d="M70 60 L 90 80 L 70 80 Z" fill="#FF6B6B" stroke="#2D3436" stroke-width="2"/>
+  <!-- Flame -->
+  <path d="M45 75 L 50 95 L 55 75 Z" fill="#FF6B6B" stroke="#2D3436" stroke-width="1"/>
+</svg>

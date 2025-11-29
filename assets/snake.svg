@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" style="background:#2D3436">
+  <rect width="100%" height="100%" fill="#2D3436"/>
+  <!-- Snake Body -->
+  <path d="M100,150 L140,150 L140,190 L180,190 L180,150 L220,150" fill="none" stroke="#2ecc71" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Head -->
+  <circle cx="240" cy="150" r="20" fill="#27ae60"/>
+  <circle cx="245" cy="145" r="3" fill="black"/>
+  <circle cx="245" cy="155" r="3" fill="black"/>
+  <!-- Apple -->
+  <circle cx="300" cy="150" r="15" fill="#e74c3c"/>
+  <path d="M300,135 L305,125" stroke="#2ecc71" stroke-width="3"/>
+</svg>
